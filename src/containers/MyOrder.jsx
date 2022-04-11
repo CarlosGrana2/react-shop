@@ -1,12 +1,15 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import OrderItem from '@components/OrderItem.jsx';
 import AppContext from '@context/AppContext';
+import Checkout from '@pages/Checkout.jsx';
+
 import '@styles/MyOrder.scss';
 
 import arrow from '@icons/flechita.svg';
 
-const MyOrder = () => {
-	const { state } = useContext(AppContext); 
+const MyOrder = ({ toggleOrders, setToggleOrders }) => {
+	const [ toggle, setToggle ] = useState(false);
+	const { state } = useContext(AppContext);
 
 	const sumTotal = () => {
 		const reducer = (accumalator, currentValue) => accumalator + currentValue.price;
@@ -30,10 +33,11 @@ const MyOrder = () => {
 					</p>
 					<p>${sumTotal()}</p>
 				</div>
-				<button className="primary-button">
+				<button className="primary-button" onClick={() => setToggle(true)}>
 					Checkout
 				</button>
 			</div>
+			{toggle && <Checkout setToggle={setToggle}/>}
 		</aside>
 	);
 }
