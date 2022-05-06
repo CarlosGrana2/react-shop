@@ -20,7 +20,7 @@ const ProductInfo = ({ product, setToggleProduct, handleClick }) => {
 					className="primary-button add-to-cart-button"
 					onClick={addToCartAndClose}
 				>
-					<img src={addToCart} alt="add to cart" />
+					<img src={btnAddToCart} alt="add to cart" />
 					Add to cart
 				</button>
 			</div>
