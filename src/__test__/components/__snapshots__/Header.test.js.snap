@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Snapshot Validate UI the Header component 1`] = `
+<nav>
+  <img
+    alt="logo"
+    className="menu"
+    onClick={[Function]}
+    src={Object {}}
+  />
+  <div
+    className="navbar-left"
+  >
+    <a
+      className="nav-logo"
+      href="/"
+    >
+      <img
+        alt="logo"
+        src={Object {}}
+      />
+    </a>
+    <ul>
+      <li>
+        <a
+          href="/"
+        >
+          All
+        </a>
+      </li>
+      <li>
+        <a
+          href="/"
+        >
+          Clothes
+        </a>
+      </li>
+      <li>
+        <a
+          href="/"
+        >
+          Electronics
+        </a>
+      </li>
+      <li>
+        <a
+          href="/"
+        >
+          Furnitures
+        </a>
+      </li>
+      <li>
+        <a
+          href="/"
+        >
+          Toys
+        </a>
+      </li>
+      <li>
+        <a
+          href="/"
+        >
+          Others
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="navbar-right"
+  >
+    <ul>
+      <li
+        className="navbar-email"
+        onClick={[Function]}
+      >
+        cgranadosmontenegro
+      </li>
+      <li
+        className="navbar-shopping-cart"
+        onClick={[Function]}
+      >
+        <img
+          alt="shopping cart"
+          src={Object {}}
+        />
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

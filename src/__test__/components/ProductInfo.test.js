@@ -19,7 +19,11 @@ describe("<ProductInfo />", () => {
     const setToggleProduct = jest.fn();
     const wrapper = mount(
       <AppContext.Provider value={{ state: { cart: 0 } }}>
-        <ProductInfo product={ProductMock} setToggleProduct={setToggleProduct} handleClick={handleAddToCart} />
+        <ProductInfo
+          product={ProductMock}
+          setToggleProduct={setToggleProduct}
+          handleClick={handleAddToCart}
+        />
       </AppContext.Provider>
     );
     wrapper.find("button").simulate("click");
