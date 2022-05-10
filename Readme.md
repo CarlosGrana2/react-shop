@@ -10,6 +10,8 @@ Proyecto ejemplo práctico de mini store consumiendo API - Ejemplo
 - Sitio responsive.
 - Productos integrados de Api Ejemplo.
 - Formularios de Login y registros (No integrados con servicio externo)
+- Pruebas unitarias con Jest + Enzyme
+- Ejemplo de pruebas E2E con Playwright
 
 ## Tech 👨🏻‍💻
 
@@ -17,7 +19,8 @@ Proyecto ejemplo práctico de mini store consumiendo API - Ejemplo
 - [Vs code] - Editor de código.
 - [Webpack] - Empaquetador de módulos de JavaScript de código abierto.
 - [Netlify] - Ecosistema completo de herramientas y servicios modernos en un solo flujo de trabajo simple para crear sitios y aplicaciones de alto rendimiento.
--
+- [Travis]
+- [Jest]
 [![My Skills](https://skills.thijs.gg/icons?i=react,figma&theme=light)](https://skills.thijs.gg)
 
 ## Installation Development 
@@ -37,6 +40,20 @@ Para iniciar en ambiente de desarrollo
 ```sh
 npm run start
 ```
+
+Para ejecutar casos de pruebas 
+
+```sh
+npm run test
+```
+
+Para ejecutar Pruebas E2E
+
+```sh
+npm run e2e
+```
+
+
 
 El proyecto queda disponible en la url: http://localhost:8080
 

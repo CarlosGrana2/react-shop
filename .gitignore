@@ -2,3 +2,12 @@ node_modules
 
 # Local Netlify folder
 .netlify
+/test-results/
+/playwright-report/
+/dist-pw/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/playwright/.cache/
